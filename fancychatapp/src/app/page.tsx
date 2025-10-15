@@ -7,6 +7,8 @@ export default function Home() {
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
 
+  // Hi
+
   const sendMessage = async () => {
     if (!input.trim()) return;
 
